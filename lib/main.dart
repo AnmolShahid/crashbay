@@ -71,7 +71,8 @@ if (web==false){
         )
       );
 }else if (web==true){
-   return WebviewScaffold(
+ return  SafeArea(
+    child: WebviewScaffold(
       url: 'https://crashbay.com/',
       
       withZoom: true,
@@ -91,8 +92,11 @@ if (web==false){
         )
        ,)
         )
-        );
-}
+        )
+
+  );
+   
+  }
    
     
   }}
