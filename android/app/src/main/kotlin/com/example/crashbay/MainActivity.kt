@@ -1,4 +1,4 @@
-package com.example.crashbay
+package com.tapplay.crashbay
 
 import io.flutter.embedding.android.FlutterActivity
 
